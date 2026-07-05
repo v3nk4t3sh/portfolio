@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local tooling state
+.claude/settings.local.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor/OS noise
+.DS_Store
+Thumbs.db
