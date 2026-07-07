@@ -7,7 +7,7 @@ import { AnimatePresence, motion, useMotionValue, useSpring } from 'framer-motio
  * Grows over interactive elements. Over elements carrying a data-cursor
  * attribute ("View" / "Locked" / "Scroll" / "Play") a small black pill
  * with the label pops out beside the dot.
- * Only renders for fine pointers — untouched on touch devices.
+ * Only renders for fine pointers - untouched on touch devices.
  */
 
 const DOT_SIZES = { default: 14, link: 36, label: 12 }
@@ -79,13 +79,13 @@ export default function CustomCursor() {
       animate={{ opacity: hidden ? 0 : 1 }}
       transition={{ duration: 0.2 }}
     >
-      {/* Dot — solid black */}
+      {/* Dot - solid black */}
       <motion.div
         className="-translate-x-1/2 -translate-y-1/2 rounded-full bg-ink"
         animate={{ width: dotSize, height: dotSize }}
         transition={{ duration: 0.25, ease: 'easeOut' }}
       />
-      {/* Label pill — pops out up-left of the dot */}
+      {/* Label pill - pops out up-left of the dot */}
       <AnimatePresence>
         {mode.type === 'label' && (
           <motion.div

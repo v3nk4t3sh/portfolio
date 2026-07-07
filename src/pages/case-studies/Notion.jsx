@@ -21,7 +21,7 @@ const DATA = {
   },
   decision: {
     title: 'Ask one question, then curate',
-    body: 'The redesign replaces the empty state with a single question — "What are you here to do?" — and returns a curated shelf of three templates per intent, each with a live preview. The full gallery remains one click away for browsers, but nobody starts at zero.',
+    body: 'The redesign replaces the empty state with a single question - "What are you here to do?" - and returns a curated shelf of three templates per intent, each with a live preview. The full gallery remains one click away for browsers, but nobody starts at zero.',
   },
   journey: [
     { img: '/case-study/images/notion-journey-1.svg', caption: 'One intent question' },

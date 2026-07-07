@@ -5,42 +5,42 @@ import Reveal from './Reveal.jsx'
 const EXPERIENCE = [
   {
     company: 'Zoapi Innovations',
-    period: 'Oct 2025 – Present',
+    period: 'Oct 2025 - Present',
     role: 'Creative Designer',
     bullets: [
       "Led the redesign of Zoapi's SaaS platform, mobile application, and website, creating a more cohesive and scalable user experience across customer touchpoints.",
       'Owned end-to-end product design, from research and workflow analysis to high-fidelity UI, prototyping, and developer handoff, delivering 20+ feature enhancements and product improvements.',
-      'Simplified complex user journeys and interaction patterns, improving task efficiency by 15–25% while reducing friction across key product workflows.',
+      'Simplified complex user journeys and interaction patterns, improving task efficiency by 15-25% while reducing friction across key product workflows.',
       'Partnered closely with engineering, product, and business stakeholders to align user needs with business goals and ensure high-quality implementation.',
       'Established consistent design patterns and scalable UI standards that improved product usability, visual consistency, and overall customer experience.',
     ],
   },
   {
     company: 'MM NOVA TECH',
-    period: 'Apr 2025 – Jun 2025',
+    period: 'Apr 2025 - Jun 2025',
     role: 'UI/UX & Graphic Designer',
     bullets: [
       'Designed landing pages, websites, email campaigns, and digital marketing assets that strengthened brand consistency and improved user engagement across multiple channels.',
       'Collaborated with stakeholders and teams across India and Canada to translate business objectives into effective digital experiences and visual communication solutions.',
       'Worked closely with developers, marketers, and project stakeholders to deliver high-quality design solutions within fast-paced project timelines.',
-      'Applied visual hierarchy, branding, and user-centered design principles to drive a 15–20% increase in engagement while improving consistency across digital touchpoints.',
+      'Applied visual hierarchy, branding, and user-centered design principles to drive a 15-20% increase in engagement while improving consistency across digital touchpoints.',
     ],
   },
   {
     company: 'National Skill Academy',
     shortName: 'National Skill Acad.',
-    period: 'Jan 2024 – Mar 2025',
+    period: 'Jan 2024 - Mar 2025',
     role: 'UI/UX & Graphic Designer',
     bullets: [
       'Led UX/UI design for 25+ web products and client projects, creating intuitive experiences with a focus on usability, accessibility, and scalable design.',
       'Translated business and marketing goals into clear user journeys, improving engagement, navigation, and overall product effectiveness.',
       'Designed end-to-end experiences from wireframes and user flows to high-fidelity interfaces, while establishing reusable design patterns for consistency and scale.',
-      'Partnered with cross-functional teams to deliver projects efficiently, improving delivery speed by 30% and contributing to a 10–20% increase in user engagement across key projects.',
+      'Partnered with cross-functional teams to deliver projects efficiently, improving delivery speed by 30% and contributing to a 10-20% increase in user engagement across key projects.',
     ],
   },
   {
     company: 'Agency',
-    period: 'Mar 2023 – Aug 2023',
+    period: 'Mar 2023 - Aug 2023',
     role: 'Graphic Design, Video Editing & Motion Graphics (Intern)',
     bullets: [
       'Created motion graphics, video content, and digital marketing assets for agency and media projects, supporting brand communication and audience engagement.',
@@ -70,7 +70,7 @@ function Polaroid({ src, className = '', grayscale = false }) {
 function PhotoStack() {
   return (
     <div className="group relative z-10 w-64 md:w-72">
-      {/* Pop-out photos — tucked behind the main polaroid, fan out on hover */}
+      {/* Pop-out photos - tucked behind the main polaroid, fan out on hover */}
       <Polaroid
         src="/about-photo-2.JPG"
         grayscale
@@ -86,7 +86,7 @@ function PhotoStack() {
         grayscale
         className="absolute left-1/2 top-1/2 z-0 w-40 -translate-x-1/2 -translate-y-1/2 transition-transform duration-500 ease-out group-hover:translate-x-[48%] group-hover:rotate-12 motion-reduce:transition-none"
       />
-      {/* Main photo — straightens to center on hover */}
+      {/* Main photo - straightens to center on hover */}
       <Polaroid
         src="/about-photo.jpg"
         className="relative z-10 -rotate-3 transition-transform duration-500 ease-out group-hover:rotate-0 motion-reduce:transition-none"
@@ -201,7 +201,7 @@ export default function About() {
           </h2>
           <p className="mt-5 max-w-2xl leading-relaxed text-[#8D8D8D]">
             I'm drawn to problems where the design question is tangled up in a
-            business question — the messy, cross-functional kind. Over three
+            business question - the messy, cross-functional kind. Over three
             years I've shipped products used by teams at scale, and lately
             I've rebuilt how I work: prototyping in code with Claude and
             Cursor to test ten directions in the time one used to take.

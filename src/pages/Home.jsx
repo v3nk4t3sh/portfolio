@@ -9,7 +9,7 @@ import Contact from '../components/Contact.jsx'
 import Footer from '../components/Footer.jsx'
 
 export default function Home() {
-  usePageTitle('Madia Venkatesh Rao — Product/UX Designer')
+  usePageTitle('Madia Venkatesh Rao - Product/UX Designer')
 
   return (
     <>

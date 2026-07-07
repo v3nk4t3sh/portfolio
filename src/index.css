@@ -76,7 +76,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Native cursor hidden on fine pointers — the custom dot cursor replaces it */
+/* Native cursor hidden on fine pointers - the custom dot cursor replaces it */
 @media (pointer: fine) {
   * {
     cursor: none !important;

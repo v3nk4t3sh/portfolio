@@ -17,7 +17,7 @@ const DATA = {
   },
   research: {
     title: 'Interviews with hosts who almost weren\'t',
-    body: 'I interviewed 15 recent hosts and 10 people who abandoned setup. The abandoners shared a pattern: they weren\'t rejecting hosting — they were postponing a decision that felt irreversible. Every one of them wanted an earnings estimate and an example listing before committing to anything.',
+    body: 'I interviewed 15 recent hosts and 10 people who abandoned setup. The abandoners shared a pattern: they weren\'t rejecting hosting - they were postponing a decision that felt irreversible. Every one of them wanted an earnings estimate and an example listing before committing to anything.',
   },
   decision: {
     title: 'Show the payoff first, defer the paperwork',

@@ -157,7 +157,7 @@ const FIGMA_PROTO =
 
 const META = [
   { label: 'Role', value: 'Product designer (concept)' },
-  { label: 'Team', value: 'Solo — self-initiated' },
+  { label: 'Team', value: 'Solo - self-initiated' },
   { label: 'Timeline', value: '4 weeks (2024)' },
   { label: 'Platform', value: 'Mobile · Living room' },
   { label: 'Status', value: 'Live prototype ↗', href: FIGMA_PROTO },
@@ -174,14 +174,14 @@ const PRESS = [
   {
     source: 'Variety 2024',
     title: "Hollywood insiders spill on their (least) favorite streaming interfaces",
-    body: 'In a survey of industry insiders, Prime Video drew the strongest consensus as the most overwhelming streaming UI — 15 sources named it worst, citing cluttered navigation and Continue Watching dropping viewers straight into playback instead of the episode menu.',
+    body: 'In a survey of industry insiders, Prime Video drew the strongest consensus as the most overwhelming streaming UI - 15 sources named it worst, citing cluttered navigation and Continue Watching dropping viewers straight into playback instead of the episode menu.',
     img: '/case-study/images/amazon-cover.webp',
     href: 'https://variety.com/lists/user-friendly-streaming-services-survey/',
   },
   {
     source: 'Engadget 2024',
     title: 'Prime Video gets a much-needed UI overhaul',
-    body: "Amazon's July 2024 redesign brought a content-forward navigation bar, clearer included-with-Prime labeling, and AI recommendations — acknowledging years of criticism. Episode-level navigation, however, remained largely untouched.",
+    body: "Amazon's July 2024 redesign brought a content-forward navigation bar, clearer included-with-Prime labeling, and AI recommendations - acknowledging years of criticism. Episode-level navigation, however, remained largely untouched.",
     img: '/case-study/images/amazon-cover-1.jpg',
     href: 'https://www.engadget.com/prime-video-gets-a-much-needed-ui-overhaul-with-a-new-content-bar-and-ai-recommendations-120019397.html',
   },
@@ -189,27 +189,27 @@ const PRESS = [
 
 const PROCESS = [
   { week: 'Week 1', color: '#4589F5', phase: 'Discover', items: ['Heuristic audit of the live app (mobile + TV)', '10 viewer interviews on binge habits', 'Press + community complaint analysis', 'Competitive teardown (Netflix, Disney+, Max)'] },
-  { week: 'Week 1–2', color: '#E91E8C', phase: 'Define', items: ['HMW framing', 'Two intents mapped: resume vs. browse', 'Success metrics set', 'Scope: episode navigation only'] },
-  { week: 'Week 2–3', color: '#6c56fc', phase: 'Design', items: ['Lo-fi wireframes, 3 directions', 'Moderated tests with 18 viewers', 'Two flow iterations', 'Hi-fi screens for mobile + TV'] },
+  { week: 'Week 1-2', color: '#E91E8C', phase: 'Define', items: ['HMW framing', 'Two intents mapped: resume vs. browse', 'Success metrics set', 'Scope: episode navigation only'] },
+  { week: 'Week 2-3', color: '#6c56fc', phase: 'Design', items: ['Lo-fi wireframes, 3 directions', 'Moderated tests with 18 viewers', 'Two flow iterations', 'Hi-fi screens for mobile + TV'] },
   { week: 'Week 4', color: '#22C55E', phase: 'Deliver', items: ['Prototype usability validation', 'Spoiler-copy stress testing', 'Accessibility pass', 'Case study write-up'] },
   { week: 'Post-study', color: '#EF4444', phase: 'Iterate', items: ['Task-funnel re-analysis of test data', '~48% stall after forced auto-resume identified', 'Resume and Episodes split on the card', 'v2 flow: episode intent respected'] },
 ]
 
 const INSIGHTS = [
-  { bg: '#E5F5FE', icon: ICONS.customer, label: 'Viewer Research', title: 'Resume is a guess, not a command', body: 'Nearly half the time, viewers opened a show wanting something other than "continue exactly here" — a rewatch, a skipped episode, or checking where they were. Auto-resume treated every open as one intent.' },
-  { bg: '#F0EEFF', icon: ICONS.support, label: 'Behaviour Research', title: 'Binge momentum dies in menus', body: 'The gap between episodes is where sessions end. Every detour out of the player — back, title page, scroll, season picker — gave viewers a fresh chance to leave. The next episode had to live inside playback.' },
-  { bg: '#EFF5E6', icon: ICONS.data, label: 'Content Gap', title: 'The episode list spoils the show', body: 'Thumbnails and descriptions routinely revealed deaths, reunions, and plot turns. Mid-season viewers avoided browsing episodes entirely — the safest move was not looking, which meant not navigating.' },
+  { bg: '#E5F5FE', icon: ICONS.customer, label: 'Viewer Research', title: 'Resume is a guess, not a command', body: 'Nearly half the time, viewers opened a show wanting something other than "continue exactly here" - a rewatch, a skipped episode, or checking where they were. Auto-resume treated every open as one intent.' },
+  { bg: '#F0EEFF', icon: ICONS.support, label: 'Behaviour Research', title: 'Binge momentum dies in menus', body: 'The gap between episodes is where sessions end. Every detour out of the player - back, title page, scroll, season picker - gave viewers a fresh chance to leave. The next episode had to live inside playback.' },
+  { bg: '#EFF5E6', icon: ICONS.data, label: 'Content Gap', title: 'The episode list spoils the show', body: 'Thumbnails and descriptions routinely revealed deaths, reunions, and plot turns. Mid-season viewers avoided browsing episodes entirely - the safest move was not looking, which meant not navigating.' },
 ]
 
 const DECISIONS = [
   {
-    problem: { n: 1, title: 'Browsing episodes meant risking spoilers', body: 'Unwatched episodes showed full thumbnails and synopses. Viewers mid-season scrolled past with eyes half-closed — or refused to open the list at all.' },
+    problem: { n: 1, title: 'Browsing episodes meant risking spoilers', body: 'Unwatched episodes showed full thumbnails and synopses. Viewers mid-season scrolled past with eyes half-closed - or refused to open the list at all.' },
     decision: { title: 'Spoiler-safe browsing by default', body: 'Unwatched episodes get abstract art and neutral one-liners ("The aftermath unfolds"). A single toggle reveals full details for viewers who want them.' },
-    outcome: { title: 'Mid-season browsing stopped feeling risky', body: 'Testers explored episode lists freely for the first time — including seasons they had not reached yet.' },
+    outcome: { title: 'Mid-season browsing stopped feeling risky', body: 'Testers explored episode lists freely for the first time - including seasons they had not reached yet.' },
   },
   {
     problem: { n: 2, title: 'Between episodes, momentum left the app', body: 'Picking anything other than "next" meant leaving the player: back out, find the title page, scroll to episodes, switch season. Four context switches mid-binge.' },
-    decision: { title: 'A quick switcher inside the player', body: 'An Episodes button in the player controls opens an overlay strip — every episode, watched-state, season jump — without stopping playback underneath.' },
+    decision: { title: 'A quick switcher inside the player', body: 'An Episodes button in the player controls opens an overlay strip - every episode, watched-state, season jump - without stopping playback underneath.' },
     outcome: { title: 'Binge flow without leaving playback', body: 'Episode switching became a two-tap action from anywhere in the app, including mid-playback.' },
   },
 ]
@@ -251,9 +251,9 @@ const FLOW_V2 = [
 ]
 
 const REFLECTIONS = [
-  { num: '01', title: 'Resume is a guess, not a command', body: 'Defaulting to resume is good design; forcing it is not. The moment we split "Resume" and "Episodes" into equal citizens on the same card, both intents got faster — and nobody lost the one-tap resume they loved.' },
-  { num: '02', title: 'Spoiler safety is table stakes for browsing', body: "Viewers won't explore an episode list that might spoil the story they're invested in. Every browsing improvement was worthless until unwatched episodes stopped leaking plot — safety unlocked navigation, not the other way around." },
-  { num: '03', title: 'Visible beats elegant', body: 'An early version hid the quick switcher behind a swipe gesture. It demoed beautifully and failed silently — testers never found it. The boring, always-visible Episodes button won every measure that mattered.' },
+  { num: '01', title: 'Resume is a guess, not a command', body: 'Defaulting to resume is good design; forcing it is not. The moment we split "Resume" and "Episodes" into equal citizens on the same card, both intents got faster - and nobody lost the one-tap resume they loved.' },
+  { num: '02', title: 'Spoiler safety is table stakes for browsing', body: "Viewers won't explore an episode list that might spoil the story they're invested in. Every browsing improvement was worthless until unwatched episodes stopped leaking plot - safety unlocked navigation, not the other way around." },
+  { num: '03', title: 'Visible beats elegant', body: 'An early version hid the quick switcher behind a swipe gesture. It demoed beautifully and failed silently - testers never found it. The boring, always-visible Episodes button won every measure that mattered.' },
 ]
 
 /* ---------- section pieces ---------- */
@@ -357,7 +357,7 @@ function TopNav() {
 /* ---------- page ---------- */
 
 export default function PrimeVideo() {
-  usePageTitle('Prime Video Episode Feature — Case Study — Madia Venkatesh Rao')
+  usePageTitle('Prime Video Episode Feature - Case Study - Madia Venkatesh Rao')
 
   return (
     <motion.div
@@ -391,7 +391,7 @@ export default function PrimeVideo() {
             <p className="max-w-[500px] text-[16px] font-medium leading-normal tracking-[-0.32px] md:max-w-[680px]" style={{ color: GRAY }}>
               A concept feature for Prime Video that makes episodes first-class citizens: a
               spoiler-safe episode list, a quick switcher inside the player, and a Continue
-              Watching card that offers browsing — not just forced resume.
+              Watching card that offers browsing - not just forced resume.
             </p>
           </Reveal>
         </section>
@@ -467,8 +467,8 @@ export default function PrimeVideo() {
                   Prime Video ships with more than 200 million Prime memberships, making it one of
                   the most-installed streaming apps in the world. It is also the interface industry
                   insiders most consistently call overwhelming: rentals, channels, and originals
-                  compete on every screen, and the thing viewers do most — watch the next episode
-                  of a series — is buried beneath all of it.
+                  compete on every screen, and the thing viewers do most - watch the next episode
+                  of a series - is buried beneath all of it.
                 </p>
                 <p className="mb-5 text-[16px] font-medium leading-[1.65] tracking-[-0.3px]" style={{ color: BODY }}>
                   This concept adds an episode-first layer to the existing app. Continue Watching
@@ -516,14 +516,14 @@ export default function PrimeVideo() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="mb-5 text-[16px] font-medium leading-[1.6] tracking-[-0.3px]" style={{ color: BODY }}>
-                Most streaming hours go to series, not films — which makes episode navigation the
+                Most streaming hours go to series, not films - which makes episode navigation the
                 highest-frequency journey in the app. On Prime Video, tapping a show in Continue
                 Watching skips the menu entirely and throws the viewer into playback, so reaching
                 a specific episode means backing out and hunting through the title page.
               </p>
               <p className="text-[16px] font-medium leading-[1.6] tracking-[-0.3px]" style={{ color: BODY }}>
                 The stakes compound at the end of every episode. That ten-second gap is where a
-                session either continues or dies — and every extra menu, season picker, and
+                session either continues or dies - and every extra menu, season picker, and
                 spoiler-laden list gives the viewer another reason to put the remote down.
               </p>
             </Reveal>
@@ -577,14 +577,14 @@ export default function PrimeVideo() {
               {
                 bg: '#e8f4fd', icon: ICONS.customer, who: 'Viewers',
                 title: 'Continue Watching skips the menu',
-                body: 'Tapping a show forced playback from the last position. Wanting anything else — a different episode, a rewatch, checking where you were — meant backing out and navigating a title page crowded with rentals, extras, and X-Ray.',
+                body: 'Tapping a show forced playback from the last position. Wanting anything else - a different episode, a rewatch, checking where you were - meant backing out and navigating a title page crowded with rentals, extras, and X-Ray.',
                 quote: '"I just want to pick the episode. Why am I fighting the app for that?"',
                 by: '- Viewer interview, P4',
               },
               {
                 bg: '#eeecfb', icon: ICONS.support, who: 'The platform',
                 title: 'Every broken binge is churn risk',
-                body: 'Sessions end in the gaps between episodes. A viewer who cannot find episode four watches nothing — and industry surveys kept naming this interface the most overwhelming in streaming, dragging the whole Prime bundle down with it.',
+                body: 'Sessions end in the gaps between episodes. A viewer who cannot find episode four watches nothing - and industry surveys kept naming this interface the most overwhelming in streaming, dragging the whole Prime bundle down with it.',
                 quote: '"If they can\'t find the next episode, they don\'t watch a different one. They leave."',
                 by: '- Streaming PM interview (concept)',
               },
@@ -675,7 +675,7 @@ export default function PrimeVideo() {
             <Label>Hi-Fi Design</Label>
             <Lead
               dark="The final flow:"
-              rest="the viewer chooses Resume or Episodes from the Continue Watching card, scans a spoiler-safe list with clear watched-states, and lands exactly where they meant to — two decisions, zero detours."
+              rest="the viewer chooses Resume or Episodes from the Continue Watching card, scans a spoiler-safe list with clear watched-states, and lands exactly where they meant to - two decisions, zero detours."
               className="mb-8 max-w-[720px]"
             />
           </Reveal>
@@ -685,7 +685,7 @@ export default function PrimeVideo() {
         </section>
       </div>
 
-      {/* Refund clarity — full-bleed dark section */}
+      {/* Refund clarity - full-bleed dark section */}
       <section
         className="mb-[125px] pb-[60px] pt-[60px] md:pb-[96px] md:pt-[96px]"
         style={{ background: 'linear-gradient(159.99deg, #0d1a25 0%, #12293a 38%, #0e2231 68%, #081520 100%)' }}
@@ -699,7 +699,7 @@ export default function PrimeVideo() {
               </h2>
               <p className="mb-9 text-[16px] font-medium leading-[1.6] tracking-[-0.32px]" style={{ color: 'rgba(255,255,255,0.55)' }}>
                 Every unwatched episode hides its secrets by default: abstract artwork, neutral
-                descriptions, no runtime cliffhangers. Browsing becomes safe — which is what
+                descriptions, no runtime cliffhangers. Browsing becomes safe - which is what
                 finally makes it possible.
               </p>
               <div className="flex flex-col gap-4">
@@ -735,7 +735,7 @@ export default function PrimeVideo() {
                 <p className="mb-5 text-[16px] font-medium tracking-[-0.32px]" style={{ color: INK }}>steps to reach a specific episode</p>
                 <p className="text-[16px] font-medium leading-[1.6] tracking-[-0.32px]" style={{ color: GRAY }}>
                   Nine steps became five. Resume kept its one-tap speed while browsing gained an
-                  equal, always-visible path — no viewer intent was sacrificed for the other.
+                  equal, always-visible path - no viewer intent was sacrificed for the other.
                 </p>
               </div>
             </Reveal>
@@ -760,7 +760,7 @@ export default function PrimeVideo() {
             <div className="rounded-[20px] px-5 py-5 text-center md:px-12 md:py-14" style={{ background: '#f9f9f9' }}>
               <p className="mx-auto max-w-[760px] text-[24px] font-semibold leading-[35px] tracking-[-0.72px] md:text-[32px] md:leading-[40px] md:tracking-[-0.96px]" style={{ color: GRAY }}>
                 <span style={{ color: INK }}>The concept changed what an episode is.</span>{' '}
-                From a row buried under a title page to a layer that travels with the viewer —
+                From a row buried under a title page to a layer that travels with the viewer -
                 on the card, in the list, and inside the player itself.
               </p>
             </div>
@@ -801,7 +801,7 @@ export default function PrimeVideo() {
               </h2>
               <p className="mb-4 text-[16px] font-medium leading-[1.65] tracking-[-0.32px]" style={{ color: GRAY }}>
                 Auto-resume was designed with good intent: get returning viewers back into the
-                story in one tap. In practice it hijacked every open — including the half of
+                story in one tap. In practice it hijacked every open - including the half of
                 opens where the viewer wanted a different episode, a rewatch, or just to look.
               </p>
               <p className="text-[16px] font-medium leading-[1.65] tracking-[-0.32px]" style={{ color: GRAY }}>

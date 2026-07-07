@@ -13,7 +13,7 @@ const ITEMS = [
   { key: 'p7', type: 'photo', src: '/life/photo-7.png', cardClass: 'w-36 md:w-48 aspect-[3/4]', x: '-17vw', y: '20vh', rotate: 3, z: 2, start: 0.34 },
   { key: 'p8', type: 'photo', src: '/life/photo-8.JPG', cardClass: 'w-40 md:w-56 aspect-[16/10]', x: '-36vw', y: '34vh', rotate: -6, z: 1, start: 0.38 },
   { key: 'p9', type: 'photo', src: '/life/photo-9.jpg', cardClass: 'w-40 md:w-56 aspect-[16/10]', x: '10vw', y: '34vh', rotate: 3, z: 1, start: 0.42 },
-  // The hero card — visible from the start, drifts right as the rest scatter.
+  // The hero card - visible from the start, drifts right as the rest scatter.
   { key: 'hero', type: 'photo', src: '/life/photo-10.JPG', cardClass: 'w-48 md:w-64 aspect-[4/5]', x: '32vw', y: '15vh', rotate: 5, z: 3, start: 0.15, hero: true },
 ]
 

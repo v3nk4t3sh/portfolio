@@ -70,7 +70,7 @@ export default function Work() {
               <div
                 className="group block"
                 data-cursor="Locked"
-                aria-label={`${cs.title} case study — locked`}
+                aria-label={`${cs.title} case study - locked`}
               >
                 <CardBody cs={cs} />
               </div>

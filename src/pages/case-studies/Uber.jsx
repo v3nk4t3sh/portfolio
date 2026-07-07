@@ -13,11 +13,11 @@ const DATA = {
   ],
   problem: {
     title: 'Safety tools nobody can find at 2am',
-    body: 'Uber\'s safety toolkit existed, but it lived behind a shield icon most riders had never tapped. In the moments that matter — an unexpected detour, a stop that goes on too long — a stressed rider had to navigate three levels of UI to share their trip or reach support.',
+    body: 'Uber\'s safety toolkit existed, but it lived behind a shield icon most riders had never tapped. In the moments that matter - an unexpected detour, a stop that goes on too long - a stressed rider had to navigate three levels of UI to share their trip or reach support.',
   },
   research: {
     title: 'Diary studies from the night shift',
-    body: 'A two-week diary study with 18 frequent late-night riders showed that discomfort is gradual, not sudden: riders described a rising unease long before they would consider an SOS button. What they wanted was acknowledgement — a sign the app noticed the same thing they did.',
+    body: 'A two-week diary study with 18 frequent late-night riders showed that discomfort is gradual, not sudden: riders described a rising unease long before they would consider an SOS button. What they wanted was acknowledgement - a sign the app noticed the same thing they did.',
   },
   decision: {
     title: 'Check in before they have to reach out',

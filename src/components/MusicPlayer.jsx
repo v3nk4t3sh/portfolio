@@ -73,7 +73,7 @@ export default function MusicPlayer() {
         {isPlaying ? 'Pause ↓' : 'Play ↓'}
       </span>
 
-      {/* Vinyl disc tucked behind the card — only the top peeks out.
+      {/* Vinyl disc tucked behind the card - only the top peeks out.
           Spins while playing; the sheen + label notch make the spin visible. */}
       <div
         className="animate-spin-vinyl pointer-events-none absolute -top-36 left-1/2 h-56 w-56 -translate-x-1/2 rounded-full shadow-xl shadow-black/25"
@@ -100,9 +100,9 @@ export default function MusicPlayer() {
         </span>
       </div>
 
-      {/* Card face — covers the lower part of the vinyl */}
+      {/* Card face - covers the lower part of the vinyl */}
       <div className="relative rounded-[28px] bg-white px-8 pb-8 pt-10 shadow-2xl shadow-black/15">
-        {/* Track indicator dots — one per track */}
+        {/* Track indicator dots - one per track */}
         <div className="mb-3 flex items-center justify-center gap-1.5" aria-hidden="true">
           {TRACKS.map((t, i) => (
             <span
@@ -181,7 +181,7 @@ export default function MusicPlayer() {
         </div>
       </div>
 
-      {/* Tonearm — swings onto the record while playing */}
+      {/* Tonearm - swings onto the record while playing */}
       <svg
         width="26"
         height="150"

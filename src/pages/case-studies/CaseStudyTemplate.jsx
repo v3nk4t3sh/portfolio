@@ -45,7 +45,7 @@ function SectionMarker({ icon, label }) {
 }
 
 export default function CaseStudyTemplate({ data }) {
-  usePageTitle(`${data.name} Case Study — Madia Venkatesh Rao`)
+  usePageTitle(`${data.name} Case Study - Madia Venkatesh Rao`)
 
   const [firstWord, ...restWords] = data.headline.split(' ')
 

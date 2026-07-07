@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 /*
  * Pixel runner mini-game (dino-style):
  * click / Space / ArrowUp to start and jump, collect coins for bonus points,
- * click or Space after crashing to restart. Pure canvas — no libraries.
+ * click or Space after crashing to restart. Pure canvas - no libraries.
  * HI score persists in localStorage. Background stays in gentle motion even
  * before the game starts so it reads as alive.
  */
@@ -339,7 +339,7 @@ function PixelGame() {
         try {
           localStorage.setItem('pixelRunnerHi', String(state.hi))
         } catch {
-          /* storage unavailable — HI just won't persist */
+          /* storage unavailable - HI just won't persist */
         }
       }
     }
