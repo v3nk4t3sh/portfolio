@@ -50,7 +50,7 @@ const EXPERIENCE = [
   },
 ]
 
-const STATS = ['2.8+ Years Experience', 'Shipped Products at Scale', 'Bengaluru · Remote-Open']
+const STATS = ['3.2+ Years Experience', 'Shipped Products at Scale', 'Bengaluru · Remote-Open']
 
 function Polaroid({ src, className = '', grayscale = false }) {
   return (

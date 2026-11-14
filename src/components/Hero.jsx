@@ -79,7 +79,7 @@ export default function Hero() {
           <Repel className="inline-block">
             <span className="inline-flex items-center gap-2 rounded-full bg-[#F0F0F0] px-4 py-2 text-xs font-semibold tracking-wide text-ink">
               <img src="/logos/case.svg" alt="" width="14" height="14" aria-hidden="true" />
-              2.8+ YOE
+              3.2+ YOE
             </span>
           </Repel>
         </motion.div>
@@ -108,7 +108,7 @@ export default function Hero() {
             View work
           </a>
           <a
-            href="/Madia-Venkatesh-Rao_Resume.pdf"
+            href="/Madia-Venkatesh-Rao-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="group inline-flex items-center rounded-full border border-black/15 px-7 py-3 text-sm font-semibold transition-colors hover:bg-black/5"

@@ -45,7 +45,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="/Madia-Venkatesh-Rao_Resume.pdf"
+            href="/Madia-Venkatesh-Rao-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="group ml-1 inline-flex items-center rounded-full bg-ink px-6 py-2.5 text-[15px] font-semibold text-white transition-opacity hover:opacity-80"

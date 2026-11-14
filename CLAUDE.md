@@ -1,6 +1,6 @@
 # Venkatesh Rao — Portfolio Website
 
-Personal portfolio of **Madia Venkatesh Rao** (goes by Venkatesh), Product/Creative Designer at Zoapi Innovations, Bengaluru. 2.8+ years of experience. Contact: vomsi03@gmail.com · LinkedIn: https://www.linkedin.com/in/venkatesh-rao-b330a719b/
+Personal portfolio of **Madia Venkatesh Rao** (goes by Venkatesh), Product/Creative Designer at Zoapi Innovations, Bengaluru. 3.2+ years of experience. Contact: vomsi03@gmail.com · LinkedIn: https://www.linkedin.com/in/venkatesh-rao-b330a719b/
 
 Modeled on modern designer portfolios (primary reference: muhid.de). Fully static SPA — no backend, no database, no external API calls at runtime.
 
@@ -27,7 +27,7 @@ Modeled on modern designer portfolios (primary reference: muhid.de). Fully stati
 - `data/caseStudies.js` — home Work-grid cards: slug, title, description, `cover` image, `locked` flag. **Only prime-video is unlocked**; airbnb / notion / uber are locked (cards render as non-link divs with padlock + "Locked" cursor label).
 - `components/`
   - `Navbar.jsx` — floating gray pill bar, VR logo (`/Logo.png`), links + Resume button. Shrinks from max-w-6xl to max-w-2xl when scrolled past 40px.
-  - `Hero.jsx` — badge "2.8+ YOE", title + gray subtext, View work (EYE icon) / Resume (DOC icon) buttons, "My stack" repulsion icons (order: Figma, Claude, Cursor, Framer, Adobe, Blender, WordPress, Unreal, Notion, Affinity; 40px circles, -10px overlap). Contains reusable `Repel` component (cursor repulsion: radius 90, strength 27.5, window-level mousemove + springs).
+  - `Hero.jsx` — badge "3.2+ YOE", title + gray subtext, View work (EYE icon) / Resume (DOC icon) buttons, "My stack" repulsion icons (order: Figma, Claude, Cursor, Framer, Adobe, Blender, WordPress, Unreal, Notion, Affinity; 40px circles, -10px overlap). Contains reusable `Repel` component (cursor repulsion: radius 90, strength 27.5, window-level mousemove + springs).
   - `MusicPlayer.jsx` — vinyl card, tilted 6°, straightens on hover with handwritten "Play ↓" label. ONE HTML5 Audio in useRef, TRACKS array (3 tracks, `/Music/jazz-*.mp3`, per-track `vol` + optional `offset`), click-anywhere-to-play, tonearm swings when playing, 3 track-indicator dots, EQ bars, artist line "Design in Progress". Vinyl spins via CSS `animate-spin-vinyl` + `animationPlayState`.
   - `SlideIcon.jsx` — shared slide-in-from-left icon-on-hover for buttons. Exports `SlideIcon`, `ARROW_RIGHT`, `EYE`, `DOC`.
   - `LogoMarquee.jsx` — client logo strip (Zoapi, Novatech, Swio, Imagitec, Academy from `/logos/client-*`), 4 strip copies for seamless -50% loop, center-fade via CSS mask (35%/65% stops), pause on hover, 28px logos / 96px gaps / 0.5 opacity grayscale.
@@ -46,7 +46,7 @@ Modeled on modern designer portfolios (primary reference: muhid.de). Fully stati
 ## public/ assets
 
 - `Logo.png` — VR monogram (navbar 36px + favicon). ⚠ 935KB, should be re-exported ~144px.
-- `Madia-Venkatesh-Rao_Resume.pdf` — linked from navbar/hero/contact.
+- `Madia-Venkatesh-Rao-Resume.pdf` — linked from navbar/hero/contact (hyphen before "Resume", not underscore).
 - `about-photo.jpg` + `about-photo-2/3/4.JPG` — polaroid stack (extensions/case matter on Vercel!).
 - `Music/jazz-1|2|3.mp3` — player tracks.
 - `fonts/` — OpenRunde woff2 ×4, Caveat-Regular.ttf, PressStart2P-Regular.ttf.
